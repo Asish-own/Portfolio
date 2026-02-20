@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asish Kumar Behera | CS Student & Cloud Enthusiast</title>
+    <meta name="description" content="Asish Kumar Behera – B.Tech CS Student, Google Cloud Arcade Legend Tier Achiever, and Full-Stack Developer based in Brahmapur, Odisha.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Asish.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3><i class="fas fa-map-marker-alt" style="margin-right:6px;font-size:13px;"></i>Brahmapur, Odisha, India</h3>
+            <h1>Asish Kumar Behera</h1>
+            <h2 class="typing-text">I am a <span class="type-effect"></span></h2>
+            <p>Passionate developer with hands-on experience in Cloud Computing, AI, and Web Development. Google Cloud Arcade <strong>Legend Tier</strong> achiever with strong foundations in C, C++, Python, SQL, and modern web technologies.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#" class="btn btn-secondary"><i class="fas fa-download" style="margin-right:8px;"></i>Download Resume</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Asish-own" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/asish-kumar-behera/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:asishkumarbehera2026@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="img-box">
+                <img src="{{ url_for('static', filename='images/profile.jpeg') }}" alt="Asish Kumar Behera" onerror="this.src='https://ui-avatars.com/api/?name=Asish+Kumar+Behera&background=38bdf8&color=fff&size=320'">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="section-title"><h2>About Me</h2></div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I am a <strong>B.Tech Computer Science student at NIST University</strong> with a strong passion for Cloud Computing, Artificial Intelligence, and Software Development. I have hands-on experience working with Google Cloud technologies including Vertex AI, BigQuery, Compute Engine, Kubernetes, IAM, and Cloud Storage.
+                </p>
+                <br>
+                <p>
+                    I am a <strong>Core Member of the Data Science Club</strong> at NIST University, where I actively contribute to technical initiatives and collaborate with peers on innovative projects.
+                </p>
+                <br>
+                <p>
+                    I achieved the prestigious <strong>Google Cloud Arcade Legend Tier</strong> by completing 344 labs, 63 courses, and 61 quizzes, demonstrating my dedication to continuous learning and technical growth.
+                </p>
+                <br>
+                <p>
+                    I have also built practical tools like an <strong>SGPA & CGPA Calculator</strong> web application and contributed to innovation projects at Atal Tinkering Lab, working with Arduino, RFID systems, and 3D printing.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">344+</span>
+                        <span class="stat-label">Cloud Labs</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">63</span>
+                        <span class="stat-label">Courses</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">61</span>
+                        <span class="stat-label">Quizzes</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">4+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <div class="section-title"><h2>My Skills</h2></div>
+        <div class="skills-wrapper">
+
+            <div class="skill-category">
+                <h3 class="skill-cat-title"><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="skills-container">
+                    <div class="skill-card"><i class="fas fa-copyright"></i><h4>C</h4></div>
+                    <div class="skill-card"><i class="fas fa-plus"></i><h4>C++</h4></div>
+                    <div class="skill-card"><i class="fab fa-python"></i><h4>Python</h4></div>
+                    <div class="skill-card"><i class="fas fa-database"></i><h4>SQL</h4></div>
+                    <div class="skill-card"><i class="fab fa-js"></i><h4>JavaScript</h4></div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-cat-title"><i class="fas fa-globe"></i> Web Development</h3>
+                <div class="skills-container">
+                    <div class="skill-card"><i class="fab fa-html5"></i><h4>HTML5</h4></div>
+                    <div class="skill-card"><i class="fab fa-css3-alt"></i><h4>CSS3</h4></div>
+                    <div class="skill-card"><i class="fab fa-js"></i><h4>JavaScript</h4></div>
+                    <div class="skill-card"><i class="fas fa-mobile-alt"></i><h4>Responsive</h4></div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-cat-title"><i class="fab fa-google"></i> Cloud Technologies</h3>
+                <div class="skills-container">
+                    <div class="skill-card"><i class="fab fa-google"></i><h4>GCP</h4></div>
+                    <div class="skill-card"><i class="fas fa-brain"></i><h4>Vertex AI</h4></div>
+                    <div class="skill-card"><i class="fas fa-database"></i><h4>BigQuery</h4></div>
+                    <div class="skill-card"><i class="fas fa-server"></i><h4>Compute Engine</h4></div>
+                    <div class="skill-card"><i class="fas fa-cloud"></i><h4>Cloud Storage</h4></div>
+                    <div class="skill-card"><i class="fas fa-key"></i><h4>IAM</h4></div>
+                    <div class="skill-card"><i class="fas fa-dharmachakra"></i><h4>Kubernetes</h4></div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-cat-title"><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                <div class="skills-container">
+                    <div class="skill-card"><i class="fab fa-git-alt"></i><h4>Git</h4></div>
+                    <div class="skill-card"><i class="fab fa-github"></i><h4>GitHub</h4></div>
+                    <div class="skill-card"><i class="fas fa-rocket"></i><h4>Netlify</h4></div>
+                    <div class="skill-card"><i class="fas fa-microchip"></i><h4>Arduino</h4></div>
+                    <div class="skill-card"><i class="fas fa-id-card"></i><h4>RFID</h4></div>
+                    <div class="skill-card"><i class="fas fa-cube"></i><h4>3D Printing</h4></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="section-title"><h2>Featured Projects</h2></div>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-badge">Featured</div>
+                <div class="project-icon"><i class="fas fa-calculator"></i></div>
+                <div class="project-info">
+                    <h3>SGPA & CGPA Calculator</h3>
+                    <p>A modern and responsive web application that allows students to calculate their SGPA and CGPA using a 10-point grading system. Features one-click PDF export and light/dark mode.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> SGPA calculator with subject inputs</li>
+                        <li><i class="fas fa-check-circle"></i> CGPA calculator for multiple semesters</li>
+                        <li><i class="fas fa-check-circle"></i> One-click PDF export</li>
+                        <li><i class="fas fa-check-circle"></i> Light/Dark mode & mobile responsive</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://nist-sgpa-cgpa-calculator.netlify.app/" target="_blank" class="btn btn-primary" style="font-size:13px;padding:9px 20px;">
+                            <i class="fas fa-external-link-alt" style="margin-right:6px;"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/Asish-own" target="_blank" class="btn btn-secondary" style="font-size:13px;padding:9px 20px;">
+                            <i class="fab fa-github" style="margin-right:6px;"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-parking"></i></div>
+                <div class="project-info">
+                    <h3>Automatic Parking Zone</h3>
+                    <p>An innovation project built at Atal Tinkering Lab. Designed an automated parking management system using Arduino and electronic sensors for efficient space monitoring.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> IoT-based parking detection</li>
+                        <li><i class="fas fa-check-circle"></i> Automated space monitoring</li>
+                        <li><i class="fas fa-check-circle"></i> Prototype built with 3D printing</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Arduino</span><span>Electronics</span><span>3D Printing</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                <div class="project-info">
+                    <h3>RFID Security System</h3>
+                    <p>An RFID-based access control system developed at Atal Tinkering Lab. Implemented secure authentication using RFID readers and Arduino for controlled access management.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> RFID-based authentication</li>
+                        <li><i class="fas fa-check-circle"></i> Secure access control</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time feedback system</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Arduino</span><span>RFID</span><span>Electronics</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-robot"></i></div>
+                <div class="project-info">
+                    <h3>AI Portfolio Website</h3>
+                    <p>This portfolio website itself — an AI-powered portfolio with a Groq-backed chatbot (RAG) trained on resume data, built with Flask, HTML, CSS, and JavaScript.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> RAG-based AI chatbot</li>
+                        <li><i class="fas fa-check-circle"></i> Groq API (Llama 3.1) integration</li>
+                        <li><i class="fas fa-check-circle"></i> Dark/Light mode & responsive</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>Flask</span><span>Groq API</span><span>Python</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Asish-own" target="_blank" class="btn btn-secondary" style="font-size:13px;padding:9px 20px;">
+                            <i class="fab fa-github" style="margin-right:6px;"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience">
+        <div class="section-title"><h2>Experience</h2></div>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Aug 2025 – Present</div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Core Member</h3>
+                        <span class="timeline-org"><i class="fas fa-university"></i> Data Science Club — NIST University, Brahmapur</span>
+                    </div>
+                    <ul class="timeline-list">
+                        <li>Actively contribute to data science and AI-related initiatives</li>
+                        <li>Collaborate with peers on technical projects and research</li>
+                        <li>Participate in workshops, hackathons, and technical events</li>
+                        <li>Help promote technical learning culture within the university</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018 – 2023</div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Project Contributor</h3>
+                        <span class="timeline-org"><i class="fas fa-flask"></i> Atal Tinkering Lab — Kendriya Vidyalaya, Berhampur</span>
+                    </div>
+                    <ul class="timeline-list">
+                        <li>Built innovation projects: Automatic Parking Zone & RFID Security System</li>
+                        <li>Gained hands-on experience with Arduino and electronics</li>
+                        <li>Used 3D printing for prototype development</li>
+                        <li>Developed problem-solving and teamwork skills</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="achievements">
+        <div class="section-title"><h2>Achievements</h2></div>
+        <div class="achievements-grid">
+
+            <div class="achievement-card featured-achievement">
+                <div class="achievement-icon"><i class="fab fa-google"></i></div>
+                <div class="achievement-badge">Legend Tier</div>
+                <h3>Google Cloud Arcade</h3>
+                <p>Achieved the highest <strong>Legend Tier</strong> milestone on Google Cloud Arcade platform.</p>
+                <div class="achievement-stats">
+                    <div class="a-stat"><span>344+</span><small>Labs</small></div>
+                    <div class="a-stat"><span>63</span><small>Courses</small></div>
+                    <div class="a-stat"><span>61</span><small>Quizzes</small></div>
+                </div>
+                <div class="achievement-tags">
+                    <span>Vertex AI</span><span>BigQuery</span><span>Kubernetes</span><span>IAM</span>
+                </div>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon"><i class="fas fa-brain"></i></div>
+                <h3>Gen AI Study Jam</h3>
+                <p>Participated in Google's Generative AI Study Jam, gaining hands-on experience with AI tools and cloud technologies. Received official certificate and recognition.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon"><i class="fab fa-aws"></i></div>
+                <h3>AWS Generative AI Workshop</h3>
+                <p>Attended AWS Generative AI Workshop — learned about LLMs, Amazon SageMaker, Bedrock, and AI model deployment workflows.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon"><i class="fab fa-git-alt"></i></div>
+                <h3>Git & GitHub Workshop</h3>
+                <p>Completed a hands-on workshop covering version control fundamentals, Git workflows, branching strategies, and GitHub collaboration skills.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="education">
+        <div class="section-title"><h2>Education</h2></div>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Aug 2024 – Aug 2028</div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>B.Tech — Computer Science</h3>
+                        <span class="timeline-org"><i class="fas fa-university"></i> NIST University, Brahmapur, Odisha</span>
+                    </div>
+                    <p style="color:var(--text-muted);margin-top:8px;font-size:15px;">Currently pursuing Bachelor's degree in Computer Science. Actively involved in the Data Science Club and cloud computing initiatives.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 – 2024</div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Intermediate — Class XII</h3>
+                        <span class="timeline-org"><i class="fas fa-school"></i> Kendriya Vidyalaya, Berhampur</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2012 – 2022</div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Matriculation — Class X</h3>
+                        <span class="timeline-org"><i class="fas fa-school"></i> Kendriya Vidyalaya, Berhampur</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="certifications">
+        <div class="section-title"><h2>Certifications</h2></div>
+        <div class="certs-grid">
+            <div class="cert-card">
+                <i class="fab fa-google"></i>
+                <h4>Google Cloud Arcade Legend Tier</h4>
+                <p>Google Cloud</p>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-brain"></i>
+                <h4>Gen AI Study Jam Certificate</h4>
+                <p>Google</p>
+            </div>
+            <div class="cert-card">
+                <i class="fab fa-aws"></i>
+                <h4>AWS Generative AI Workshop</h4>
+                <p>Amazon Web Services</p>
+            </div>
+            <div class="cert-card">
+                <i class="fab fa-github"></i>
+                <h4>Git & GitHub Workshop</h4>
+                <p>Version Control</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="section-title"><h2>Contact Me</h2></div>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Let's Work Together</h3>
+                <p>I'm always open to discussing new opportunities, innovative projects, or just a friendly chat about tech!</p>
+                <div class="contact-details">
+                    <div class="c-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>Email</span>
+                            <a href="mailto:asishkumarbehera2026@gmail.com">asishkumarbehera2026@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="c-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span>Location</span>
+                            <a>Brahmapur, Odisha, India</a>
+                        </div>
+                    </div>
+                    <div class="c-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <span>GitHub</span>
+                            <a href="https://github.com/Asish-own" target="_blank">github.com/Asish-own</a>
+                        </div>
+                    </div>
+                    <div class="c-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <span>LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/asish-kumar-behera/" target="_blank">asish-kumar-behera</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrap">
+                <form id="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%;">
+                        <i class="fas fa-paper-plane" style="margin-right:8px;"></i>Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHATBOT -->
+    <div class="chatbot-toggler">
+        <i class="far fa-comment-dots"></i>
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="chatbot">
+        <header>
+            <h2><i class="fas fa-robot" style="margin-right:8px;"></i>Ask About Asish</h2>
+            <span class="close-btn"><i class="fas fa-times"></i></span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span><i class="fas fa-robot"></i></span>
+                <p>Hi! 👋 I'm Asish's AI assistant. Ask me anything about his skills, projects, cloud experience, or achievements!</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Ask about Asish..." spellcheck="false" required></textarea>
+            <span id="send-btn"><i class="fas fa-paper-plane"></i></span>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/Asish-own" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/asish-kumar-behera/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:asishkumarbehera2026@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2025 Asish Kumar Behera. All Rights Reserved.</p>
+            <p style="font-size:12px;margin-top:6px;opacity:0.5;">Built with Flask & Groq AI</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
